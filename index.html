@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Template</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Important Owl stylesheet -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="css/owl.theme.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+</head>
+<body>
+
+    <!-- кнопка на верх -->
+    <div id="top"><i class="fa fa-chevron-up"></i></div>
+
+    <div id="home" class="subTop">
+        <div class="container top">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="phone"></span><span class="phoneText">+972-505-111-777</span>
+                    <span class="contact"></span><span class="contactText">info@filancy.com</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap">
+        <div class="container menuTop">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-default shrink">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#"><img src="images/logo.jpg"></a>
+                            </div>
+                            <div id="navbar" class="navbar-collapse collapse">
+
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="#home">Home</a></li>
+                                    <li><a href="#services">Services</a></li>
+                                    <li><a href="#about">about us</a></li>
+                                    <li><a href="#clients">our clients</a></li>
+                                    <li><a href="#contactUs">contacts</a></li>
+                                </ul>
+                            </div><!--/.nav-collapse -->
+                        </div><!--/.container-fluid -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sliderTop">
+        <div id="slider" class="carousel slide carousel-fade" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#slider" data-slide-to="0" class="active"></li>
+                <li data-target="#slider" data-slide-to="1"></li>
+                <li data-target="#slider" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="line_top"></div>
+                <div class="line_top2"></div>
+
+                <div class="item  active">
+                    <h1>Marketing is our essence</h1>
+                    <div class="slide1">
+                        <img src="images/layerBg.png">
+                    </div>
+                </div>
+
+                <div class="item ">
+                    <h1>Marketing is our essence</h1>
+                    <div class="slide2">
+                        <img src="images/layerBg2.png">
+                    </div>
+                </div>
+
+                <div class="item ">
+                    <h1>Marketing is our essence</h1>
+                    <div class="slide3">
+                        <img src="images/layerBg3.png">
+                    </div>
+                </div>
+            </div>
+
+
+            <ul id="scene">
+                <li class="layer layer1" data-depth="0.20"><img src="images/layer1.png"></li>
+                <li class="layer layer2" data-depth="0.40"><img src="images/layer2.png"></li>
+                <li class="layer layer3" data-depth="0.60"><img src="images/layer3.png"></li>
+                <li class="layer layer4" data-depth="0.80"><img src="images/layer4.png"></li>
+            </ul>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#slider" role="button" data-slide="prev">
+                <span class="sliderLeft" aria-hidden="true"><i></i></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#slider" role="button" data-slide="next">
+                <span class="sliderRight" aria-hidden="true"><i></i></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div id="services" class="container services">
+        <div class="row">
+            <div class="headerServices">
+                <h2>Services</h2>
+                <p class="subheader">Specializing in custom web and marketing tools, Filancy has the right custom solution for your business</p>
+            </div>
+            <div class="line_servis"></div>
+            <div class="lineGRB">
+                <span class="lineGreen"></span>
+                <span class="lineRed"></span>
+                <span class="lineBlue"></span>
+            </div>
+        </div>
+
+        <div class="row red">
+            <div class="col-md-3">
+                <div class="icon_1">
+                    <div class="lineGray"></div>
+                </div>
+                <h3>Media Buying</h3>
+                <p>
+                    We specialize in media planning and buying in all markets. Our agency offers a full scope of
+                    services including targeted traffic, mass media, traffic from big publishers and small websites,
+                    from niche sites and networks, CPM, flat fee
+                </p>
+            </div>
+            <div class="col-md-3">
+                <div class="icon_2">
+                    <div class="lineGray"></div>
+                </div>
+                <h3>Affiliate Marketing</h3>
+                <p>
+                    Filancy has an extensive expertise in building partner programs for the clients in various fields
+                    like gambling, games, forex, binary options
+                </p>
+            </div>
+            <div class="col-md-3">
+                <div class="icon_3">
+                    <div class="lineGray"></div>
+                </div>
+                <h3>Mobile Marketing</h3>
+                <p>
+                    Based on different mobile tools, we develop all types of marketing strategies and models (CPM,
+                    CPC, CPI) engaging consumers from iOS, Android and Windows devices
+                </p>
+            </div>
+            <div class="col-md-3">
+                <div class="icon_4"></div>
+                <h3>Lead Generation</h3>
+                <p>
+                    We help engage new clients with banner ads, email or targeted search campaigns to drive traffic
+                    to a client’s landing page or website.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="icon_5">
+                    <div class="lineGray"></div>
+                </div>
+                <h3>SEO, SMM, PPC</h3>
+                <p>Our staff knows how to improve natural organic search for engine rankings and increase your website’s visibility. We design outstanding social media campaigns and we’ll be happy to work with you</p>
+            </div>
+            <div class="col-md-3">
+                <div class="icon_6">
+                    <div class="lineGray"></div>
+                </div>
+                <h3>
+                    Data and Campaign
+                    Optimization
+                </h3>
+                <p>
+                    This type of services will be useful if you want to improve your sales results and optimize your
+                    advertising campaigns
+                </p>
+            </div>
+            <div class="col-md-3">
+                <div class="icon_7">
+                    <div class="lineGray"></div>
+                </div>
+                <h3>
+                    Full design
+                    studio services
+                </h3>
+                <p>Whether you need a website, funnel, LP or a banner, our design team is dedicated to high quality visual and user-friendly design.</p>
+            </div>
+            <div class="col-md-3">
+                <div class="icon_8"></div>
+                <h3>Content management</h3>
+                <p>
+                    Our team assists our clients with a variety of important content marketing services, including
+                    creating of content strategy, blogging, copywriting, translation services, social media marketing,
+                    videos, animation, infographics and much more.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="subAbout">
+        <div class="headerAbout">
+            <h2>About us</h2>
+            <p class="subheader">Let tell you some words about us</p>
+        </div>
+        <div id="about" class="container about">
+            <div class="row">
+
+                <div class="line_about"></div>
+                <div class="lineGRB">
+                    <span class="lineGreen"></span>
+                    <span class="lineRed"></span>
+                    <span class="lineBlue"></span>
+                </div>
+                <div class="col-md-11 col-md-offset-1 subAboutP ">
+
+                    <div class="aboutP parallaxAboutUs">
+
+                        <div class="what">
+                            <p>What we do?</p>
+                        </div>
+                        Filancy is a marketing agency where we combine creativity with technology to create engaging marketing experiences for your customers. We have over 8 years of extensive practice helping companies get more awareness, engagement and better sales results. We are a team of professionals passionate in media buying, affiliate, mobile and email marketing, SEO
+                        optimization, content selling and re-selling services all over the world. We specialize in gambling, forex, binary options, social games, telecommunications and travel. From social to mobile and web, we create tailored solutions to each channel and perfect for your needs. Mar
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="subClients">
+        <div class="headerClients">
+            <h2>We have nice Clients</h2>
+            <p class="subheader">
+                We’ve helped a variety of companies both large and small realize the benefits of digital marketing.
+                Overthe years, we’ve developed a deep understanding of brand advertising, design and consumerengagement.
+            </p>
+            <p>
+                Browse through a selection of our campaigns.
+            </p>
+        </div>
+        <div id="clients" class="container clients">
+            <div class="row">
+
+
+                <div class="line_clients"></div>
+                <div class="lineGRB">
+                    <span class="lineGreen"></span>
+                    <span class="lineRed"></span>
+                    <span class="lineBlue"></span>
+                </div>
+            </div>
+            <div class="row">
+                
+                        <div  id="owl-example" class="owl-carousel">
+                            <div class="col-md-2">
+                                <a href="#"><img src="images/client1.png" /></a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#"><img src="images/client2.png" /></a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#"><img src="images/client3.png" /></a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#"><img src="images/client4.png" /></a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#"><img src="images/client5.png" /></a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#"><img src="images/client6.png" /></a>
+                            </div>
+                       
+                            <div class="col-md-2">
+                                <a href="#"><img src="images/client7.png" /></a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#"><img src="images/client8.png" /></a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#"><img src="images/client9.png" /></a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#"><img src="images/client10.png" /></a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#"><img src="images/client11.png" /></a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#"><img src="images/client12.png" /></a>
+                            </div>
+                     
+                            <div class="col-md-2">
+                                <a href="#"><img src="images/client13.png" /></a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#"><img src="images/client14.png" /></a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#"><img src="images/client15.png" /></a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#"><img src="images/client16.png" /></a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#"><img src="images/client17.png" /></a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#"><img src="images/client7.png" /></a>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="boxes" class="container boxes">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="boxesBlocks">
+                    <div>
+                        <img src="images/boxes1.png" />
+                        <span>Fast result</span>
+                    </div>
+                    <p>
+                        Sed ut perspiciatis unde omnis iste nat
+                        us error sit voluptatem accusantium dolo
+                        remque lauda.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="boxesBlocks">
+                    <div>
+                        <img src="images/boxes2.png" />
+                        <span>Best team</span>
+                    </div>
+                    <p>
+                        Sed ut perspiciatis unde omnis iste nat
+                        us error sit voluptatem accusantium dolo
+                        remque lauda.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="boxesBlocks">
+                    <div>
+                        <img src="images/boxes3.png" />
+                        <span>Clean design</span>
+                    </div>
+                    <p>
+                        Sed ut perspiciatis unde omnis iste nat
+                        us error sit voluptatem accusantium dolo
+                        remque lauda.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="subContactUs">
+        <div id="contactUs" class="container contactUs">
+            <div class="row">
+                <form name="footer" acrion="#" method="post">
+                    <div class="col-md-3 leftForm">
+                        <div class="logoForm"></div>
+                        <p>
+                            Filancy is a marketing agency where we combine creativity with technology to create engaging marketing experiences for your customers. We have over 8 years of extensive practice helping companies get more awareness, engagement and better sales results.
+                        </p>
+                        <div class="social">
+                            <i class="fa fa-google-plus"></i>
+                            <i class="fa fa-pinterest"></i>
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-youtube"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-6  centerForm">
+                        <h2>Form</h2>
+                        <div class="form">
+                            <p>
+                                <input type="text" placeholder="Name" name="name" />
+                                <input type="text" placeholder="E-mail" name="email" />
+                            </p>
+                            <p>
+                                <input type="text" placeholder="Phone" name="phone" />
+                                <input type="text" placeholder="Skype" name="skype" />
+                            </p>
+                            <p>
+                                <textarea placeholder="Message"></textarea>
+                            </p>
+                            <p>
+                                <input type="reset" value="Reset" />
+                                <input type="submit" value="Send" />
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3  rightForm">
+                        <h2>Contacts</h2>
+                        <div class="contactIcon">
+                            <p>
+                                <i class="fa fa-map-marker"></i><span><span class="contactNumbers">11</span> Sirkin,<span class="contactNumbers"> 4639213</span>, Herzliya, Israel</span>
+                            <p>
+                            <p>
+                                <i class="fa fa-phone"></i></i><span class="contactNumbers">+972-505-111-777</span>
+                            <p>
+                            <p>
+                                <i class="fa fa-envelope"></i><span>info@filancy.com</span>
+                            <p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="map-canvas" style="height:375px"></div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <p>
+                    <span>Filancy @</span><span> 2015 All Rights Reserved</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
