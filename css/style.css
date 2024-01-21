@@ -1,6 +1,3 @@
-/*������ ����������� �������*/
-
-
 @font-face {
     font-family: "GEORGIA";
     src: url("../fonts/GEORGIA.ttf");
@@ -46,7 +43,7 @@
 body {
     overflow: auto !important;
 }
-/*����� ����������� �����*/
+
 h1 {
     color: #2a2e3a;
     font-size: 86px;
@@ -75,14 +72,6 @@ h4 {
     font-weight: bold;
 }
 
-p {
-    /*  color:#;
-    font-size:px;
-    font-family:;
-    letter-spacing:px;*/
-}
-
-
 .wrap {
     margin: 0 auto;
     text-align: center;
@@ -92,10 +81,8 @@ p {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-	min-height:122px;
+    min-height:122px;
 }
-/*������ �������*/
-
 
 /*menu top*/
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
@@ -110,7 +97,7 @@ p {
 }
 
 .navbar-default .navbar-toggle{
-	    margin-top: 16px;
+	margin-top: 16px;
 }
 
 .navbar{
@@ -120,7 +107,6 @@ p {
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{border:0;}
 #navbar{
 	background-color:#fff;
-	/*margin-top: 72px;*/
 }
 .subTop {
     background-color: #013c57;
@@ -159,7 +145,6 @@ p {
     border:0;
 }
 
-
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     background-color: #fff;
 }
@@ -171,14 +156,13 @@ p {
     font-family: "GEORGIA";
 }
 
-    .navbar-nav > li > a:hover {
-        color: #e4511e !important;
-    }
+.navbar-nav > li > a:hover {
+    color: #e4511e !important;
+}
 
-    .navbar-nav > li > a:focus {
-        color: #e4511e !important;
-    }
-
+.navbar-nav > li > a:focus {
+    color: #e4511e !important;
+}
 
 #navbar .navbar-right {
     margin-top: 36px;
@@ -261,8 +245,6 @@ p {
 }
 
 
-
-
 #scene li {
     width: 100%;
     text-align: center;
@@ -289,8 +271,6 @@ p {
     height: 445px;
     text-align: center;
 }
-
-
 
 #slider {
     margin: 0 auto;
@@ -334,9 +314,8 @@ p {
     top: 337px;
 }
 
-
 .sliderLeft {
-    left: -164px;
+    left: 0;
 }
 
     .sliderLeft i {
@@ -358,7 +337,7 @@ p {
     }
 
 .sliderRight {
-    right: -164px;
+    right: 0;
 }
 
     .sliderRight i {
@@ -412,7 +391,6 @@ p {
     z-index: 2;
 }
 /**/
-
 
 /*end slider*/
 
@@ -568,7 +546,6 @@ p {
     background-image: url('../images/services8Active.png');
 }
 
-
 .red {
     margin-top: 53px;
 }
@@ -580,7 +557,7 @@ p {
     line-height: 25px;
     width: 240px;
     margin: 0 auto;
-	margin-bottom: 41px;
+    margin-bottom: 41px;
 }
 
 .services h3 {
@@ -839,8 +816,6 @@ p {
         padding-right: 20px;
     }
 
-
-
 /*end boxes*/
 
 /*contact*/
@@ -1018,11 +993,8 @@ form textarea {
         .footer span:last-child {
             color: #b1b1b1;
         }
-
-
 /*end footer*/
 
-/*�� ���������� �����*/
 .noselect {
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Chrome/Safari/Opera */
@@ -1031,9 +1003,6 @@ form textarea {
     -ms-user-select: none; /* IE/Edge */
     user-select: none; /* non-prefixed version, currently*/
 }
-
-
-/* ������ "�� ����" */
 
 #top {
     z-index: 100;
@@ -1062,6 +1031,3 @@ form textarea {
     #top:hover i {
         color: darkgrey;
     }
-
-
-/* ����� ������ "�� ����" */
