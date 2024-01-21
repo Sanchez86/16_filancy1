@@ -210,6 +210,7 @@ h4 {
 }
 
 .sliderTop {
+    overflow: hidden;
     margin-top: 122px;
     background-image: url('../images/slideBG.jpg');
     background-repeat: no-repeat;
